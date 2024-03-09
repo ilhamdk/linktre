@@ -31,6 +31,7 @@ html, body {
   font-size: 18px;
   font-weight: 700;
   color: #b097ce;
+  margin-bottom: 20px;
 }
 
 .btn-link{
@@ -52,7 +53,7 @@ html, body {
 }
 
 .btn-link:hover{
-  box-shadow: 0px 0px #b097ce;
+  box-shadow: 5px 10px #826e9a;
   border: 2px solid #826e9a;
   background: #826e9a;
 }
@@ -76,7 +77,7 @@ html, body {
 }
 
 .btn-link-pink:hover{
-  box-shadow: 0px 0px #fb7aae;
+  box-shadow: 5px 10px #b85a89;
   border: 2px solid #b85a89;
   background: #b85a89;
 }
@@ -87,10 +88,11 @@ html, body {
 
 .body-box{
   height: 90%;
+  margin-top: 10px;
 }
 
 .body-center{
-  height: 100%;
+  height: 83%;
   overflow: scroll;
   overflow-x: hidden;
   scrollbar-color: #b097ce;
@@ -106,4 +108,19 @@ html, body {
 
 .body-center::-webkit-scrollbar-thumb{
   display: none;
+}
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background: #b097ce;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
